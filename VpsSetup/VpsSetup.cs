@@ -679,8 +679,8 @@ namespace VpsSetup
                 Process process = Process.Start(filename32, "/S");
                 process.WaitForExit();
             }
-            checkSetupWinrar.Checked = true;
-            checkSetupWinrar.ForeColor = Color.Blue;
+            checkSetup7Zip.Checked = true;
+            checkSetup7Zip.ForeColor = Color.Blue;
         }
 
         private void checkFixCopy_Click(object sender, EventArgs e)
